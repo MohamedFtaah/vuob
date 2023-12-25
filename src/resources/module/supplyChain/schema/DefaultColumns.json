@@ -1,0 +1,260 @@
+{
+    "header" : [
+       
+            {
+              "name": "code",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "model": "",
+                "value": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+            {
+              "name": "request code",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "model": "",
+                "value": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "OFFER"
+            },
+            {
+              "name": "created date",
+              "dataType": "Date",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "date",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+            {
+              "name": "by",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+
+            {
+              "name": "company",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+            {
+              "name": "schema",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+            {
+              "name": "total price",
+              "dataType": "Number",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "number",
+              "defaultValue": {
+                "label": "Value",
+                "value": 0,
+                "model": ""
+              },
+              "required": true,
+              "editable": false,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+            {
+              "name": "status",
+              "dataType": "Array",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "select",
+              "defaultValue": {
+                "label": "Value",
+                "value": "processing",
+                "model":  [
+                  "processing",
+                  "approved",
+                  "sent",
+                  "rejected",
+                  "closed",
+                  "exported"
+                ]
+              },
+              "required": true,
+              "editable": true,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            }
+         
+    ],
+    "item" : [
+      
+            {
+              "name": "item",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": true,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+            {
+              "name": "price",
+              "dataType": "Number",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "number",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": true,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+
+            {
+              "name": "quantity",
+              "dataType": "Number",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "number",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": true,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            },
+
+            {
+              "name": "unit",
+              "dataType": "String",
+              "validation": {
+                "action": "",
+                "val": "",
+                "label": "without",
+                "hasValue": null
+              },
+              "inputType": "text",
+              "defaultValue": {
+                "label": "Value",
+                "value": "",
+                "model": ""
+              },
+              "required": true,
+              "editable": true,
+              "defaultColumn": true,
+              "flag" : "DEFAULT"
+            }
+        
+    ]
+}
